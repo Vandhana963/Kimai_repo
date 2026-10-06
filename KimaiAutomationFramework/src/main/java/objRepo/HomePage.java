@@ -36,7 +36,7 @@ public class HomePage {
 	@FindBy(xpath = "//i[@class='fas fa-download']")
 	private WebElement exportlink;
 
-	@FindBy(xpath = "(//a[@class='nav-link d-flex lh-1 p-0 px-2'])[2]")
+	@FindBy(xpath = "(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']")
 	private WebElement myprofilelink;
 
 	@FindBy(xpath = "//a[text()='Log out']")

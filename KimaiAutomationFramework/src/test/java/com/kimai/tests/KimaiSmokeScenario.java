@@ -40,7 +40,7 @@ public class KimaiSmokeScenario extends BaseClass {
 		cc.createCustomer(ccname);
 	}
 
-	@Test(groups = "RegressionTest")
+	@Test(groups = "SmokeTest")
 	public void createProject() throws Exception {
 
 		// homepage verification

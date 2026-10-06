@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="0" skipped="2">
+<testng-results ignored="0" total="9" passed="2" failed="1" skipped="6">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-06T09:49:57 IST" name="Default suite" finished-at="2026-10-06T09:50:29 IST" duration-ms="32005">
+  <suite started-at="2026-10-06T10:59:39 IST" name="Suite" finished-at="2026-10-06T11:00:55 IST" duration-ms="76488">
     <groups>
       <group name="SmokeTest">
-        <method signature="KimaiIntegrationScenario.verifyProjectWithCustomer()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" name="verifyProjectWithCustomer" class="com.kimai.tests.KimaiIntegrationScenario"/>
+        <method signature="KimaiIntegrationScenario.verifyProjectWithCustomer()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@37883b97]" name="verifyProjectWithCustomer" class="com.kimai.tests.KimaiIntegrationScenario"/>
+        <method signature="KimaiSmokeScenario.createCustomerTest()[pri:0, instance:com.kimai.tests.KimaiSmokeScenario@6ab778a]" name="createCustomerTest" class="com.kimai.tests.KimaiSmokeScenario"/>
+        <method signature="KimaiSmokeScenario.createProject()[pri:0, instance:com.kimai.tests.KimaiSmokeScenario@6ab778a]" name="createProject" class="com.kimai.tests.KimaiSmokeScenario"/>
+        <method signature="KimaiSmokeScenario.createTimesheet()[pri:0, instance:com.kimai.tests.KimaiSmokeScenario@6ab778a]" name="createTimesheet" class="com.kimai.tests.KimaiSmokeScenario"/>
+        <method signature="KimaiSystemScenario.CreateUser()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" name="CreateUser" class="com.kimai.tests.KimaiSystemScenario"/>
       </group> <!-- SmokeTest -->
       <group name="RegressionTest">
-        <method signature="KimaiIntegrationScenario.verifyActivityWithProject()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" name="verifyActivityWithProject" class="com.kimai.tests.KimaiIntegrationScenario"/>
-        <method signature="KimaiIntegrationScenario.verifyAllTimesSheetPageWithProjectandActivity()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" name="verifyAllTimesSheetPageWithProjectandActivity" class="com.kimai.tests.KimaiIntegrationScenario"/>
+        <method signature="KimaiIntegrationScenario.verifyActivityWithProject()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@37883b97]" name="verifyActivityWithProject" class="com.kimai.tests.KimaiIntegrationScenario"/>
+        <method signature="KimaiIntegrationScenario.verifyAllTimesSheetPageWithProjectandActivity()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@37883b97]" name="verifyAllTimesSheetPageWithProjectandActivity" class="com.kimai.tests.KimaiIntegrationScenario"/>
+        <method signature="KimaiSystemScenario.verifyBusinessFlow()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" name="verifyBusinessFlow" class="com.kimai.tests.KimaiSystemScenario"/>
+        <method signature="KimaiSystemScenario.verifyUserDeactivation()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" name="verifyUserDeactivation" class="com.kimai.tests.KimaiSystemScenario"/>
       </group> <!-- RegressionTest -->
     </groups>
-    <test started-at="2026-10-06T09:49:57 IST" name="Default test" finished-at="2026-10-06T09:50:29 IST" duration-ms="32005">
-      <class name="com.kimai.tests.KimaiIntegrationScenario">
-        <test-method is-config="true" signature="dataBaseConnection()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" started-at="2026-10-06T09:49:52 IST" name="dataBaseConnection" finished-at="2026-10-06T09:49:57 IST" duration-ms="4364" status="PASS">
+    <test started-at="2026-10-06T10:59:39 IST" name="Test" finished-at="2026-10-06T11:00:55 IST" duration-ms="76488">
+      <class name="com.kimai.tests.KimaiSystemScenario">
+        <test-method is-config="true" signature="dataBaseConnection()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" started-at="2026-10-06T10:59:34 IST" name="dataBaseConnection" finished-at="2026-10-06T10:59:39 IST" duration-ms="4429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataBaseConnection -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" started-at="2026-10-06T09:49:57 IST" name="launchBrowser" finished-at="2026-10-06T09:50:00 IST" duration-ms="3040" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" started-at="2026-10-06T10:59:39 IST" name="launchBrowser" finished-at="2026-10-06T10:59:42 IST" duration-ms="3310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" started-at="2026-10-06T09:50:00 IST" name="loginToApplication" finished-at="2026-10-06T09:50:19 IST" duration-ms="19729" status="PASS">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" started-at="2026-10-06T10:59:42 IST" name="loginToApplication" finished-at="2026-10-06T11:00:03 IST" duration-ms="20987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="verifyActivityWithProject()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" started-at="2026-10-06T09:50:19 IST" name="verifyActivityWithProject" finished-at="2026-10-06T09:50:27 IST" duration-ms="7719" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyActivityWithProject -->
-        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" started-at="2026-10-06T09:50:27 IST" name="logoutFromApplication" finished-at="2026-10-06T09:50:28 IST" duration-ms="1210" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+        <test-method signature="CreateUser()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" started-at="2026-10-06T11:00:03 IST" name="CreateUser" finished-at="2026-10-06T11:00:14 IST" duration-ms="10783" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[stale element reference: stale element not found
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Roles' and @role='tab']"}
   (Session info: chrome=154.0.8037.95)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3290ef8f0a0d7145b6c9b4dbb10643ce, clickElement {id=f.5EE2FF4A6779E79EE8BC51E51E5FEE9F.d.3E117574CDFF4105F0B1FD9509A32922.e.812}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60213}, goog:processID: 28856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60213/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3290ef8f0a0d7145b6c9b4dbb10643ce)] -> xpath: (//a[@class='nav-link d-flex lh-1 p-0 px-2'])[2]]
-Session ID: 3290ef8f0a0d7145b6c9b4dbb10643ce]]>
+Command: [de655f6bbcbd8286dc31aafdd8292db3, findElement {using=xpath, value=//a[text()='Roles' and @role='tab']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59119}, goog:processID: 27132, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59119/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de655f6bbcbd8286dc31aafdd8292db3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Roles' and @role='tab']"}
   (Session info: chrome=154.0.8037.95)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3290ef8f0a0d7145b6c9b4dbb10643ce, clickElement {id=f.5EE2FF4A6779E79EE8BC51E51E5FEE9F.d.3E117574CDFF4105F0B1FD9509A32922.e.812}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60213}, goog:processID: 28856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60213/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3290ef8f0a0d7145b6c9b4dbb10643ce)] -> xpath: (//a[@class='nav-link d-flex lh-1 p-0 px-2'])[2]]
-Session ID: 3290ef8f0a0d7145b6c9b4dbb10643ce
+Command: [de655f6bbcbd8286dc31aafdd8292db3, findElement {using=xpath, value=//a[text()='Roles' and @role='tab']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59119}, goog:processID: 27132, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59119/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de655f6bbcbd8286dc31aafdd8292db3
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -62,11 +62,85 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at objRepo.CreateUserPage.createUser(CreateUserPage.java:95)
+at com.kimai.tests.KimaiSystemScenario.CreateUser(KimaiSystemScenario.java:37)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" started-at="2026-10-06T11:00:14 IST" name="logoutFromApplication" finished-at="2026-10-06T11:00:14 IST" duration-ms="38" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
+  (Session info: chrome=154.0.8037.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de655f6bbcbd8286dc31aafdd8292db3, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59119}, goog:processID: 27132, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59119/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de655f6bbcbd8286dc31aafdd8292db3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
+  (Session info: chrome=154.0.8037.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de655f6bbcbd8286dc31aafdd8292db3, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59119}, goog:processID: 27132, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59119/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de655f6bbcbd8286dc31aafdd8292db3
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
 at objRepo.HomePage.logout(HomePage.java:105)
 at com.comcast.crm.basetest.BaseClass.logoutFromApplication(BaseClass.java:65)
@@ -103,39 +177,39 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApplication -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" started-at="2026-10-06T09:50:28 IST" name="loginToApplication" finished-at="2026-10-06T09:50:28 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" started-at="2026-10-06T11:00:14 IST" name="loginToApplication" finished-at="2026-10-06T11:00:14 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="verifyAllTimesSheetPageWithProjectandActivity()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" started-at="2026-10-06T09:50:29 IST" name="verifyAllTimesSheetPageWithProjectandActivity" finished-at="2026-10-06T09:50:29 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+        <test-method signature="verifyBusinessFlow()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" started-at="2026-10-06T11:00:14 IST" name="verifyBusinessFlow" finished-at="2026-10-06T11:00:14 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
-              <![CDATA[stale element reference: stale element not found
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
   (Session info: chrome=154.0.8037.95)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3290ef8f0a0d7145b6c9b4dbb10643ce, clickElement {id=f.5EE2FF4A6779E79EE8BC51E51E5FEE9F.d.3E117574CDFF4105F0B1FD9509A32922.e.812}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60213}, goog:processID: 28856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60213/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3290ef8f0a0d7145b6c9b4dbb10643ce)] -> xpath: (//a[@class='nav-link d-flex lh-1 p-0 px-2'])[2]]
-Session ID: 3290ef8f0a0d7145b6c9b4dbb10643ce]]>
+Command: [de655f6bbcbd8286dc31aafdd8292db3, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59119}, goog:processID: 27132, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59119/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de655f6bbcbd8286dc31aafdd8292db3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
   (Session info: chrome=154.0.8037.95)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3290ef8f0a0d7145b6c9b4dbb10643ce, clickElement {id=f.5EE2FF4A6779E79EE8BC51E51E5FEE9F.d.3E117574CDFF4105F0B1FD9509A32922.e.812}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60213}, goog:processID: 28856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60213/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3290ef8f0a0d7145b6c9b4dbb10643ce)] -> xpath: (//a[@class='nav-link d-flex lh-1 p-0 px-2'])[2]]
-Session ID: 3290ef8f0a0d7145b6c9b4dbb10643ce
+Command: [de655f6bbcbd8286dc31aafdd8292db3, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59119}, goog:processID: 27132, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59119/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de655f6bbcbd8286dc31aafdd8292db3
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -143,11 +217,12 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
 at objRepo.HomePage.logout(HomePage.java:105)
 at com.comcast.crm.basetest.BaseClass.logoutFromApplication(BaseClass.java:65)
@@ -184,43 +259,43 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAllTimesSheetPageWithProjectandActivity -->
-        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" started-at="2026-10-06T09:50:29 IST" name="logoutFromApplication" finished-at="2026-10-06T09:50:29 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- verifyBusinessFlow -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" started-at="2026-10-06T11:00:14 IST" name="logoutFromApplication" finished-at="2026-10-06T11:00:14 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApplication -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" started-at="2026-10-06T09:50:29 IST" name="loginToApplication" finished-at="2026-10-06T09:50:29 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" started-at="2026-10-06T11:00:14 IST" name="loginToApplication" finished-at="2026-10-06T11:00:14 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="verifyProjectWithCustomer()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" started-at="2026-10-06T09:50:29 IST" name="verifyProjectWithCustomer" finished-at="2026-10-06T09:50:29 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+        <test-method signature="verifyUserDeactivation()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" started-at="2026-10-06T11:00:14 IST" name="verifyUserDeactivation" finished-at="2026-10-06T11:00:14 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
-              <![CDATA[stale element reference: stale element not found
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
   (Session info: chrome=154.0.8037.95)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3290ef8f0a0d7145b6c9b4dbb10643ce, clickElement {id=f.5EE2FF4A6779E79EE8BC51E51E5FEE9F.d.3E117574CDFF4105F0B1FD9509A32922.e.812}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60213}, goog:processID: 28856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60213/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3290ef8f0a0d7145b6c9b4dbb10643ce)] -> xpath: (//a[@class='nav-link d-flex lh-1 p-0 px-2'])[2]]
-Session ID: 3290ef8f0a0d7145b6c9b4dbb10643ce]]>
+Command: [de655f6bbcbd8286dc31aafdd8292db3, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59119}, goog:processID: 27132, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59119/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de655f6bbcbd8286dc31aafdd8292db3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
   (Session info: chrome=154.0.8037.95)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3290ef8f0a0d7145b6c9b4dbb10643ce, clickElement {id=f.5EE2FF4A6779E79EE8BC51E51E5FEE9F.d.3E117574CDFF4105F0B1FD9509A32922.e.812}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60213}, goog:processID: 28856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60213/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3290ef8f0a0d7145b6c9b4dbb10643ce)] -> xpath: (//a[@class='nav-link d-flex lh-1 p-0 px-2'])[2]]
-Session ID: 3290ef8f0a0d7145b6c9b4dbb10643ce
+Command: [de655f6bbcbd8286dc31aafdd8292db3, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59119}, goog:processID: 27132, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59119/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de655f6bbcbd8286dc31aafdd8292db3
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -228,11 +303,12 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
 at objRepo.HomePage.logout(HomePage.java:105)
 at com.comcast.crm.basetest.BaseClass.logoutFromApplication(BaseClass.java:65)
@@ -269,23 +345,559 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyProjectWithCustomer -->
-        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" started-at="2026-10-06T09:50:29 IST" name="logoutFromApplication" finished-at="2026-10-06T09:50:29 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- verifyUserDeactivation -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" started-at="2026-10-06T11:00:14 IST" name="logoutFromApplication" finished-at="2026-10-06T11:00:14 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" started-at="2026-10-06T09:50:29 IST" name="closeBrowser" finished-at="2026-10-06T09:50:29 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" started-at="2026-10-06T11:00:14 IST" name="closeBrowser" finished-at="2026-10-06T11:00:14 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDbConnection()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@445b295b]" started-at="2026-10-06T09:50:29 IST" name="closeDbConnection" finished-at="2026-10-06T09:50:29 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeDbConnection()[pri:0, instance:com.kimai.tests.KimaiSystemScenario@10aa41f2]" started-at="2026-10-06T11:00:56 IST" name="closeDbConnection" finished-at="2026-10-06T11:00:56 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDbConnection -->
+      </class> <!-- com.kimai.tests.KimaiSystemScenario -->
+      <class name="com.kimai.tests.KimaiSmokeScenario">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.kimai.tests.KimaiSmokeScenario@6ab778a]" started-at="2026-10-06T11:00:38 IST" name="launchBrowser" finished-at="2026-10-06T11:00:41 IST" duration-ms="2830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.kimai.tests.KimaiSmokeScenario@6ab778a]" started-at="2026-10-06T11:00:41 IST" name="loginToApplication" finished-at="2026-10-06T11:00:47 IST" duration-ms="5417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createCustomerTest()[pri:0, instance:com.kimai.tests.KimaiSmokeScenario@6ab778a]" started-at="2026-10-06T11:00:47 IST" name="createCustomerTest" finished-at="2026-10-06T11:00:55 IST" duration-ms="8531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerTest -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.kimai.tests.KimaiSmokeScenario@6ab778a]" started-at="2026-10-06T11:00:55 IST" name="logoutFromApplication" finished-at="2026-10-06T11:00:55 IST" duration-ms="76" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
+  (Session info: chrome=154.0.8037.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18c77d4a523249ea06ab1575d6a1504c, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56565}, goog:processID: 24872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56565/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18c77d4a523249ea06ab1575d6a1504c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
+  (Session info: chrome=154.0.8037.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18c77d4a523249ea06ab1575d6a1504c, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56565}, goog:processID: 24872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56565/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18c77d4a523249ea06ab1575d6a1504c
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at objRepo.HomePage.logout(HomePage.java:105)
+at com.comcast.crm.basetest.BaseClass.logoutFromApplication(BaseClass.java:65)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:815)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:791)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.kimai.tests.KimaiSmokeScenario@6ab778a]" started-at="2026-10-06T11:00:55 IST" name="loginToApplication" finished-at="2026-10-06T11:00:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createProject()[pri:0, instance:com.kimai.tests.KimaiSmokeScenario@6ab778a]" started-at="2026-10-06T11:00:55 IST" name="createProject" finished-at="2026-10-06T11:00:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
+  (Session info: chrome=154.0.8037.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18c77d4a523249ea06ab1575d6a1504c, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56565}, goog:processID: 24872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56565/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18c77d4a523249ea06ab1575d6a1504c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
+  (Session info: chrome=154.0.8037.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18c77d4a523249ea06ab1575d6a1504c, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56565}, goog:processID: 24872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56565/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18c77d4a523249ea06ab1575d6a1504c
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at objRepo.HomePage.logout(HomePage.java:105)
+at com.comcast.crm.basetest.BaseClass.logoutFromApplication(BaseClass.java:65)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:815)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:791)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.kimai.tests.KimaiSmokeScenario@6ab778a]" started-at="2026-10-06T11:00:55 IST" name="logoutFromApplication" finished-at="2026-10-06T11:00:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.kimai.tests.KimaiSmokeScenario@6ab778a]" started-at="2026-10-06T11:00:55 IST" name="loginToApplication" finished-at="2026-10-06T11:00:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createTimesheet()[pri:0, instance:com.kimai.tests.KimaiSmokeScenario@6ab778a]" started-at="2026-10-06T11:00:55 IST" name="createTimesheet" finished-at="2026-10-06T11:00:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
+  (Session info: chrome=154.0.8037.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18c77d4a523249ea06ab1575d6a1504c, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56565}, goog:processID: 24872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56565/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18c77d4a523249ea06ab1575d6a1504c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
+  (Session info: chrome=154.0.8037.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18c77d4a523249ea06ab1575d6a1504c, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56565}, goog:processID: 24872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56565/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18c77d4a523249ea06ab1575d6a1504c
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at objRepo.HomePage.logout(HomePage.java:105)
+at com.comcast.crm.basetest.BaseClass.logoutFromApplication(BaseClass.java:65)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:815)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:791)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTimesheet -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.kimai.tests.KimaiSmokeScenario@6ab778a]" started-at="2026-10-06T11:00:55 IST" name="logoutFromApplication" finished-at="2026-10-06T11:00:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kimai.tests.KimaiSmokeScenario@6ab778a]" started-at="2026-10-06T11:00:55 IST" name="closeBrowser" finished-at="2026-10-06T11:00:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.kimai.tests.KimaiSmokeScenario -->
+      <class name="com.kimai.tests.KimaiIntegrationScenario">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@37883b97]" started-at="2026-10-06T11:00:15 IST" name="launchBrowser" finished-at="2026-10-06T11:00:17 IST" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@37883b97]" started-at="2026-10-06T11:00:17 IST" name="loginToApplication" finished-at="2026-10-06T11:00:32 IST" duration-ms="15369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyActivityWithProject()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@37883b97]" started-at="2026-10-06T11:00:32 IST" name="verifyActivityWithProject" finished-at="2026-10-06T11:00:38 IST" duration-ms="5810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActivityWithProject -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@37883b97]" started-at="2026-10-06T11:00:38 IST" name="logoutFromApplication" finished-at="2026-10-06T11:00:38 IST" duration-ms="64" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
+  (Session info: chrome=154.0.8037.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bf8c68c82c866e250c79ecc159b36bc, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57223}, goog:processID: 10924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57223/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bf8c68c82c866e250c79ecc159b36bc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
+  (Session info: chrome=154.0.8037.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bf8c68c82c866e250c79ecc159b36bc, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57223}, goog:processID: 10924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57223/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bf8c68c82c866e250c79ecc159b36bc
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at objRepo.HomePage.logout(HomePage.java:105)
+at com.comcast.crm.basetest.BaseClass.logoutFromApplication(BaseClass.java:65)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:815)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:791)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@37883b97]" started-at="2026-10-06T11:00:38 IST" name="loginToApplication" finished-at="2026-10-06T11:00:38 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyAllTimesSheetPageWithProjectandActivity()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@37883b97]" started-at="2026-10-06T11:00:38 IST" name="verifyAllTimesSheetPageWithProjectandActivity" finished-at="2026-10-06T11:00:38 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
+  (Session info: chrome=154.0.8037.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bf8c68c82c866e250c79ecc159b36bc, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57223}, goog:processID: 10924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57223/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bf8c68c82c866e250c79ecc159b36bc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
+  (Session info: chrome=154.0.8037.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bf8c68c82c866e250c79ecc159b36bc, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57223}, goog:processID: 10924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57223/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bf8c68c82c866e250c79ecc159b36bc
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at objRepo.HomePage.logout(HomePage.java:105)
+at com.comcast.crm.basetest.BaseClass.logoutFromApplication(BaseClass.java:65)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:815)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:791)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllTimesSheetPageWithProjectandActivity -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@37883b97]" started-at="2026-10-06T11:00:38 IST" name="logoutFromApplication" finished-at="2026-10-06T11:00:38 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@37883b97]" started-at="2026-10-06T11:00:38 IST" name="loginToApplication" finished-at="2026-10-06T11:00:38 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyProjectWithCustomer()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@37883b97]" started-at="2026-10-06T11:00:38 IST" name="verifyProjectWithCustomer" finished-at="2026-10-06T11:00:38 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
+  (Session info: chrome=154.0.8037.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bf8c68c82c866e250c79ecc159b36bc, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57223}, goog:processID: 10924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57223/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bf8c68c82c866e250c79ecc159b36bc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']' is not a valid XPath expression.
+  (Session info: chrome=154.0.8037.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bf8c68c82c866e250c79ecc159b36bc, findElement {using=xpath, value=(//div[@class='navbar-nav flex-row d-lg-none']/following::a[@aria-label='Open personal menu' and @class='nav-link d-flex lh-1 p-0 px-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.95, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\AJITHC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57223}, goog:processID: 10924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57223/devtoo..., se:cdpVersion: 154.0.8037.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bf8c68c82c866e250c79ecc159b36bc
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at objRepo.HomePage.logout(HomePage.java:105)
+at com.comcast.crm.basetest.BaseClass.logoutFromApplication(BaseClass.java:65)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:815)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:791)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProjectWithCustomer -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@37883b97]" started-at="2026-10-06T11:00:38 IST" name="logoutFromApplication" finished-at="2026-10-06T11:00:38 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kimai.tests.KimaiIntegrationScenario@37883b97]" started-at="2026-10-06T11:00:38 IST" name="closeBrowser" finished-at="2026-10-06T11:00:38 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- com.kimai.tests.KimaiIntegrationScenario -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

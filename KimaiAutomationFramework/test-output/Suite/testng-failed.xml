@@ -25,7 +25,6 @@
           <include name="createProject"/>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
-          <include name="createCustomerTest"/>
           <include name="createTimesheet"/>
         </methods>
       </class> <!-- com.kimai.tests.KimaiSmokeScenario -->
@@ -38,7 +37,6 @@
           <include name="closeDbConnection"/>
           <include name="launchBrowser"/>
           <include name="verifyProjectWithCustomer"/>
-          <include name="verifyActivityWithProject"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.kimai.tests.KimaiIntegrationScenario -->

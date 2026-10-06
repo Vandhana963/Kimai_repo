@@ -58,12 +58,12 @@ public class BaseClass {
 		lp.login(un, pwd);
 	}
 
-//	@AfterMethod(groups = { "SmokeTest", "RegressionTest" })
-//	public void logoutFromApplication() throws Exception {
-//		System.out.println("===logout===");
-//		HomePage hp = new HomePage(driver);
-//		hp.logout();
-//	}
+	@AfterMethod(groups = { "SmokeTest", "RegressionTest" })
+	public void logoutFromApplication() throws Exception {
+		System.out.println("===logout===");
+		HomePage hp = new HomePage(driver);
+		hp.logout();
+ }
 
 	@AfterClass(groups = { "SmokeTest", "RegressionTest" })
 	public void closeBrowser() {

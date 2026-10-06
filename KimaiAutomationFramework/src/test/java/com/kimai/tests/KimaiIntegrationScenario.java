@@ -85,7 +85,7 @@ public class KimaiIntegrationScenario extends BaseClass {
 		ap.getCreatebtn().click();
 		CreateActivityPage ca = new CreateActivityPage(driver);
 		String aName = eu.readDataFromExcel("Activities", 1, 0);
-		String pName = eu.readDataFromExcel("Activities", 1, 2);
+		String pName = eu.readDataFromExcel("Activities", 1, 2); 
 		ca.createActivity(aName, pName);
 
 	}

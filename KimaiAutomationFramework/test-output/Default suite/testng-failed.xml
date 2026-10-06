@@ -3,14 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kimai.tests.KimaiSystemScenario">
+      <class name="com.kimai.tests.KimaiIntegrationScenario">
         <methods>
+          <include name="logoutFromApplication"/>
           <include name="loginToApplication"/>
-          <include name="verifyUserDeactivation"/>
           <include name="dataBaseConnection"/>
+          <include name="verifyAllTimesSheetPageWithProjectandActivity"/>
+          <include name="closeDbConnection"/>
+          <include name="verifyProjectWithCustomer"/>
           <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.kimai.tests.KimaiSystemScenario -->
+      </class> <!-- com.kimai.tests.KimaiIntegrationScenario -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
